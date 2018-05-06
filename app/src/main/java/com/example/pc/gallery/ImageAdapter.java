@@ -12,6 +12,8 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 
+import java.util.ArrayList;
+
 /**
  * Created by PC on 05.05.2018.
  */
@@ -20,7 +22,9 @@ public class ImageAdapter extends BaseAdapter {
 
     private Context mContext;
 
-    //if we want download photos by URL, we need activate method setImage() at MainActivity class and remake array to vector
+    //public ArrayList ar;
+
+    //if we want download photos by URL, we need activate method setImage() at MainActivity class and remake array to arraylist
     public Integer[] mThumbIds = { R.drawable.image1, R.drawable.image2, R.drawable.image3,
                                    R.drawable.image4, R.drawable.image5, R.drawable.image6,
                                    R.drawable.image7, R.drawable.image8, R.drawable.image9,
@@ -54,4 +58,5 @@ public class ImageAdapter extends BaseAdapter {
         imageView.setLayoutParams(new GridView.LayoutParams(300, 300));
         return imageView;
     }
+
 }

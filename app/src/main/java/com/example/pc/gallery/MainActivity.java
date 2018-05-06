@@ -22,6 +22,7 @@ public class MainActivity extends Activity {
     /*public android.widget.Button getButton(){
         return this.button;
     }*/
+    public Context context;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -40,13 +41,13 @@ public class MainActivity extends Activity {
             }
         });
     }
-}
 
 
 
-    /*private imageView = (ImageView)findViewById(R.id.imageview);
 
-    public void setImage(){
+    //private ImageView imageView = (ImageView)findViewById(R.id.imageview);
+
+    /*public void setImage(){
         Button myButton = (Button)findViewById(R.id.button);
         final EditText editText = (EditText)findViewById(R.id.editText);
         myButton.setOnClickListener(new View.OnClickListener() {
@@ -60,3 +61,4 @@ public class MainActivity extends Activity {
             }
         });
     }*/
+}
